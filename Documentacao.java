@@ -65,11 +65,7 @@ public class Documentacao implements Serializable {
         return codDocumentacao;
     }
 
-    public void setCodDocumentacao(long codDocumentacao) {
-        if (codDocumentacao > 0) {
-            this.codDocumentacao = codDocumentacao;
-        }
-    }
+
 
     public Participante getCandidato() {
         return candidato;
